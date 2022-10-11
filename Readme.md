@@ -48,3 +48,19 @@ dockerを使用している。dockerの構成はdocker-compose.yml参照
     ```
     $ nohup docker-compose run python3 python tweepy_streaming.py &
     ```
+# 参考文献
+[TwitterAPI v2のStreamでTwitter自動リプライするよ](https://zenn.dev/ryo427/articles/aeb7aaf22aa8f9)
+
+[Python×Twitter】検索ツイートのデータ取得・分析｜APIとtweepy活用による自動運用アプリ開発支援](https://di-acc2.com/system/rpa/9690/#index_id6)
+
+[tweepyドキュメンテーション](https://docs.tweepy.org/en/v4.10.1/index.html)
+
+[Twitter APIドキュメンテーション](https://developer.twitter.com/en/docs/twitter-api)
+
+[requests - ChunkedEncodingError with requests.get, but not when using Postman](https://stackoverflow.com/questions/70189517/requests-chunkedencodingerror-with-requests-get-but-not-when-using-postman)
+
+[Error decoding chunked response in _update_chunk_length: ValueError: invalid literal for int() with base 16: b'HTT...](https://github.com/psf/requests/issues/4248)
+
+[【PyMySQL】PythonでMySQL（MariaDB）に接続する](https://self-development.info/E3%80%90pymysql%E3%80%91python%E3%81%A7mysql%EF%BC%88mariadb%EF%BC%89%E3%81%AB%E6%8E%A5%E7%B6%9A%E3%81%99%E3%82%8B/)
+
+[MySQLのテーブル作成（CREATE TABLE）のサンプル](https://yk5656.hatenadiary.org/entry/20141207/1426177469)
