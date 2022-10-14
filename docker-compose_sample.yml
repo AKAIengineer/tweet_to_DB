@@ -17,8 +17,18 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: '**********'
       MYSQL_DATABASE: '**********'
-      MYSQL_USER: '**********''
+      MYSQL_USER: '**********'
       MYSQL_PASSWORD: '**********'
+
+  phpmysadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    environment:
+      PMA_HOST: mysql
+    ports:
+      - 8088:80
+    depends_on:
+      - mysql
+    restart: always
 
 volumes:
   db-data:
